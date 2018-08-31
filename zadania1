@@ -131,9 +131,11 @@ for i in range (1,101):
 11. Stworzyć listę jakichkolwiek liczb 3x4, najpierw wyprowadzić wierszy, zatem kolumny.
 #12. Stworzyć listę i wyprowadzić listę i index
 
-lista=[4,5,7,9,'u','yyy',5,2]
+lista=['pies',5,'kot','kon','u','yyy','dom','kot']
 
-print (lista.index(2))
+print (lista)
+for i in (lista):
+	print ("slowo: ",i, "index: ", lista.index(i))
 
 #13.Stworzyć listę z 3 znaczeniami 'to-delete' i kilku innymi i zabrać wszystkie łancuchy 'to-delete'
 (nie wiem czy o to chodziło w tym zadaniu)
