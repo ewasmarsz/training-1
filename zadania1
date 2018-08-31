@@ -107,10 +107,10 @@ lista1 =[]
 
 for i in range (len(string)):
 	if string[i] == ":":
-		print (i)
+		#print (i)
 		lista1.append(i)
 lista1.append(len(string))
-print (lista1)
+#print (lista1)
 
 
 lista2 = []
