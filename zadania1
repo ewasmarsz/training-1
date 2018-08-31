@@ -147,7 +147,14 @@ for i in (lista):
 	    lista1.append(i)
 print (lista1)
     
-14. Sortowanie odwrotne: z listy od 1 do 10 wyprowadzić do konsoli w odwrotnym znaczeniu. 
+#14. Sortowanie odwrotne: z listy od 1 do 10 wyprowadzić do konsoli w odwrotnym znaczeniu. 
 
+import random
+lista = []
 
+for i in range (10):
+	i = random.randint(1,100)
+	lista.append(i)
+print(lista)
+print (lista[::-1])
 
