@@ -179,3 +179,19 @@ except TypeError:
     print("blad2")
 except IndexError:
     print("blad3")
+   
+   
+ #16.Stworzyć listę. Użytkownik może wprowadzić index listy, który chcę zobaczyć – jeżeli taki index istnije – proszę wyprowadzić 
+ #jego do konsoli, jeżeli nie – proszę zgłosić wyjątek z jego opisem.
+
+lista = ['dom','kot','pokoj','pies','ty',78,12]
+
+
+
+try:
+   my_index = int(input("Wprowadz index: "))
+   n = int(my_index)
+   print (lista[my_index])
+except IndexError:
+	print("Index nie istnieje")
+   
