@@ -135,7 +135,18 @@ lista=[4,5,7,9,'u','yyy',5,2]
 
 print (lista.index(2))
 
-13.Stworzyć listę z 3 znaczeniami 'to-delete' i kilku innymi i zabrać wszystkie łancuchy 'to-delete'
+#13.Stworzyć listę z 3 znaczeniami 'to-delete' i kilku innymi i zabrać wszystkie łancuchy 'to-delete'
+(nie wiem czy o to chodziło w tym zadaniu)
+
+lista = ['to-delete', 'link', 'delete', 'paste', 'to-delete', 'print', 'copy','to-delete', 'cut']
+
+lista1 = []
+
+for i in (lista):
+	if i != 'to-delete':
+	    lista1.append(i)
+print (lista1)
+    
 14. Sortowanie odwrotne: z listy od 1 do 10 wyprowadzić do konsoli w odwrotnym znaczeniu. 
 
 
