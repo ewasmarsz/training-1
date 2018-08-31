@@ -160,3 +160,22 @@ for i in range (10):
 print(lista)
 print (lista[::-1])
 
+#15.Proszę wprowadzić liczbę (funkcja_input), jeżeli liczba jest parzysta - ValueError, jeżeli liczba< 0 - TypeError, 
+#jeżeli liczba> 10 - IndexError. Proszę wychwycić wyjątek i powiedzieć użytkowniku w czym jego problem.
+
+x = int(input("Wprowadz liczbe: "))
+
+try:
+    if x % 2 ==0:
+        raise ValueError("blad1")
+    elif x < 0:
+        raise TypeError("blad2")
+    elif x > 10:
+        raise IndexError("blad3")
+    
+except ValueError:
+    print ("blad1")
+except TypeError:
+    print("blad2")
+except IndexError:
+    print("blad3")
